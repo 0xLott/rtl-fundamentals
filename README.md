@@ -1,6 +1,6 @@
 # SystemVerilog Study Projects
 
-A collection of structured hardware design projects and testbenches for learning SystemVerilog fundamentals.
+A set of hardware design projects and testbenches for learning SystemVerilog fundamentals.
 
 ## Directory structure
 
