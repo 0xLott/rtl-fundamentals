@@ -9,7 +9,7 @@ A set of hardware design projects and testbenches for learning SystemVerilog fun
 │   ├── src/
 │   ├── tb/
 │   └── dumps/
-├── 7_segment_display/
+├── seven_segment_display/
 │   ├── src/
 │   ├── tb/
 │   └── dumps/
@@ -53,7 +53,7 @@ gtkwave dumps/*.vcd
 * **Testbench:** Cycles through all four binary input combinations ($00, 01, 10, 11$) with immediate assertions that verify correct outputs.
 
 ### 2. 7-Segment Display Decoder
-**Location:** `7_segment_display/`
+**Location:** `seven_segment_display/`
 * **Task:** Create a module that takes a 4-bit binary input (representing numbers 0–9) and outputs a 7-bit signal to light up a standard 7-segment LED display.
 * **Topics:** The `always_comb` block and `case` statements. Hardware is basically just a giant lookup table for this project.
 * **Testbench:** Force an "Error" state if the input is greater than 9 (hexadecimal A–F).
