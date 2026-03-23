@@ -1,0 +1,53 @@
+$date
+	Sun Mar 22 22:58:48 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module logic_gate_playground_tb $end
+$var wire 1 ! output_xor $end
+$var wire 1 " output_or $end
+$var wire 1 # output_nand $end
+$var wire 1 $ output_and $end
+$var reg 1 % input_a $end
+$var reg 1 & input_b $end
+$scope module dut $end
+$var wire 1 % a $end
+$var wire 1 $ and_out $end
+$var wire 1 & b $end
+$var wire 1 # nand_out $end
+$var wire 1 " or_out $end
+$var wire 1 ! xor_out $end
+$upscope $end
+$scope task check_outputs $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0&
+0%
+0$
+1#
+0"
+0!
+$end
+#1
+1"
+1!
+1&
+#2
+0&
+1%
+#3
+0#
+1$
+0!
+1&
+#4
